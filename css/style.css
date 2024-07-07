@@ -1,0 +1,536 @@
+.icon {
+    width: 20px; /* Adjust size as needed */
+    height: auto;
+    margin-right: 5px; /* Adjust spacing */
+    vertical-align: middle;
+  }
+
+  footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 8pt;
+    color: #999;
+  }
+
+  footer p {
+    margin: 5px 0;
+  }
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #101010;
+    font-family: 'NanumSquare', sans-serif;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    background-color: #101010;
+    box-shadow: 0 0 2px 2px #f0f0f0;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    height: 80px;
+    margin: 0 64px;
+}
+
+h1 {
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+    margin-right: 16px;
+    font-size: 24px;
+}
+
+h1 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff; /* 링크 색을 흰색으로 설정 */
+}
+
+h1 a:hover {
+    color: #5f4b8b;
+}
+
+h1 a span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin-right: 8px;
+    font-family: 'Lobster', cursive;
+    color: #101010; /* 배경색과 대조되는 색 */
+    text-align: center;
+    width: 28px;
+    height: 28px;
+    background-color: #ffffff; /* 흰색 배경 */
+    border-radius: 8px;
+    border: 1px solid #ffffff; /* 흰색 경계 */
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff; /* 링크 색을 흰색으로 설정 */
+}
+
+p,
+li {
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+button,
+input,
+textarea:focus {
+    outline: none;
+}
+
+button {
+    background: none;
+    background-color: #101010; /* 배경색 */
+    border: none;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+header nav {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header nav a {
+    opacity: 0.5;
+    color: #ffffff; /* 링크 색을 흰색으로 설정 */
+}
+
+header nav a:hover {
+    opacity: 1;
+}
+
+header .material-icons {
+    margin-left: 4px;
+    font-size: 28px;
+    color: #ffffff; /* 아이콘 색을 흰색으로 설정 */
+    cursor: pointer;
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 1200px;
+    width: 100%;
+}
+
+.content_box {
+    margin: 0 24px;
+}
+
+.intro {
+    padding-top: 124px;
+}
+
+.intro .intro_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+.intro .my_box {
+    display: flex;
+    width: 124px;
+    height: 124px;
+    border: 1px solid white;
+    border-radius: 100%;
+    overflow: hidden;
+}
+
+.intro .my_box img {
+    width: 100%;
+}
+
+.intro .my_info {
+    margin-left: 24px;
+}
+
+.intro .my_info p {
+    margin-top: 4px;
+}
+
+.sub_menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 48px;
+    border-top: 1px solid #eee;
+}
+
+.sub_menu .sub_menubox {
+    display: flex;
+}
+
+.sub_menu a {
+    padding-top: 16px;
+    text-align: center;
+    width: 120px;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+.sub_menu a:hover {
+    margin-top: -2px;
+    color: #0f4c81;
+    border-top: 2px solid #0f4c81;
+    box-sizing: border-box;
+}
+
+.sub_menu a:active {
+    margin-top: -2px;
+    color: #0f4c81;
+    border-top: 2px solid #0f4c81;
+    box-sizing: border-box;
+}
+
+.sub_menu a.active {
+    margin-top: -2px;
+    color: #0f4c81;
+    border-top: 2px solid #0f4c81;
+    box-sizing: border-box;
+}
+
+.about {
+    margin-top: 60px;
+    padding-bottom: 64px;
+}
+
+.about h3 {
+    font-size: 24px;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+.about .about_top {
+    margin-top: 32px;
+}
+
+.about .about_top p {
+    font-size: 20px;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+.about h4 {
+    display: flex;
+    align-items: center;
+    margin: 40px 0 16px 0;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+.about p {
+    margin-top: 12px;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+.about ul {
+    margin-left: 24px;
+}
+
+.about ul li {
+    margin: 4px 0;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+.about ul a {
+    margin-top: 4px;
+    text-decoration: underline;
+    color: #ffffff; /* 링크 색을 흰색으로 설정 */
+}
+
+.half_pen {
+    display: inline-block;
+    background: linear-gradient(to top, #777BC6 50%, transparent 60%);
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+.about span.material-icons {
+    margin-right: 4px;
+    font-size: 20px;
+    color: #ffffff; /* 아이콘 색을 흰색으로 설정 */
+}
+
+.item {
+    position: relative;
+    display: inline-block;
+    width: 25%;
+    background-color: #ffffff; /* 아이템 배경을 흰색으로 설정 */
+    border-radius: 24px;
+}
+
+.itembox {
+    margin: 16px;
+    overflow: hidden;
+    border-radius: 24px;
+    position: relative;
+}
+
+.itembox img {
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.item_txt {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: 0.5s ease-in-out all;
+}
+
+.item_txt p {
+    font-weight: 800;
+    font-size: 1.25em;
+    color: #000000;
+}
+
+.item:hover img {
+    opacity: 0.3;
+}
+
+.item:hover .item_txt {
+    opacity: 1;
+    border-radius: 24px;
+}
+
+#pf_container {
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 72px;
+    max-width: 1200px;
+    column-count: 1;
+    column-gap: 16px;
+}
+
+#pf_container .item {
+    width: 100%;
+}
+
+#pf_container .itembox {
+    margin: 16px;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 1px 2px 6px #c0c0c0;
+}
+
+#pf_container .project {
+    padding: 20px;
+}
+
+#pf_container .project h4 {
+    margin-top: 0;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+#pf_container h4 {
+    font-size: 20px;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+#pf_container .project span {
+    margin-top: 4px;
+    font-size: 12px;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+#pf_container h5 {
+    margin-top: 16px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #666;
+}
+
+#pf_container p {
+    margin-top: 4px;
+    font-size: 16px;
+    color: #999;
+}
+
+#pf_container .project ul {
+    overflow: hidden;
+    margin-left: 0;
+}
+
+#pf_container .project ul li {
+    margin: 0 8px 8px 0;
+    padding: 4px 8px;
+    list-style: none;
+    float: left;
+    font-size: 14px;
+    border: 1px solid #c0c0c0;
+    border-radius: 20px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.modal_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal_box {
+    position: relative;
+    top: 0px;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 6px 6px rgba(0, 0, 0, 0.24);
+}
+
+.modal_box h3 {
+    padding: 24px;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+.modal_content {
+    padding: 0 24px;
+    color: #ffffff; /* 텍스트 색을 흰색으로 설정 */
+}
+
+.hidden {
+    display: none;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 16px;
+    right: 15px;
+}
+
+.closeBtn:hover .material-icons {
+    color: red;
+}
+
+.todo_form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.write_todo {
+    padding-left: 4px;
+    width: calc(100% - 24px);
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #c0c0c0;
+}
+
+.write_todo::placeholder {
+    padding-left: 2px;
+    color: #c0c0c0;
+}
+
+.addBtn span {
+    font-size: 32px;
+    color: #0f4c81;
+    cursor: pointer;
+}
+
+.addBtn span:hover {
+    color: navy;
+}
+
+.todo_list {
+    overflow: auto;
+    margin: 0 4px 16px 4px;
+    height: 240px;
+}
+
+.todo_list li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin: 4px 0;
+    list-style: none;
+}
+
+.todo_list li:hover .left {
+    font-weight: bold;
+}
+
+.todo_list li .left {
+    justify-self: flex-start;
+    margin-right: auto;
+}
+
+.todo_list li .material-icons {
+    margin-right: 16px;
+    color: #c0c0c0;
+    cursor: pointer;
+}
+
+.todo_list li .material-icons:hover {
+    color: lightcoral;
+}
+
+.todo_list li.chked .left {
+    text-decoration: line-through;
+    color: #c0c0c0;
+}
+
+@media screen and (max-width: 768px) {
+    header .container {
+        margin: 0 16px;
+        height: 64px;
+    }
+
+    .content_box {
+        padding: 0 16px;
+    }
+
+    #masonry_container {
+        height: 200vw;
+        max-height: 1500px;
+    }
+
+    .item {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-right: 8px;
+    }
+
+    .search .searchbox {
+        border: none;
+    }
+
+    .search .searchbox input[type="search"] {
+        display: none;
+    }
+
+    .searchbox i {
+        margin: 8px 16;
+    }
+}
